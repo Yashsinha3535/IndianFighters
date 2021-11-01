@@ -1,0 +1,507 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: rgb(255,165,0);
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(255,255,255,1) 51%, rgba(0,255,38,1) 100%);
+    
+}
+
+/* navigatiob bar styling */
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0 20px 0 0;
+    position: relative;
+    left: 614px;
+    transition: 0.3s ease-in-out;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+#logo{
+    position: relative;
+    left: 0.1%;
+    color: white;
+    height: 60px;
+}
+
+.logoText{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.bhagatsingh{
+    position: absolute;
+    right: 87%;
+    bottom: 27%;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.bhagatsingh h3{
+    position: relative;
+    right: -25%;
+    bottom: 20.5px;
+    color: black;
+}
+
+.bhagatsingh a{
+    text-decoration: none;
+    position: relative; 
+    right: -30%;
+    bottom: 35.5px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.bhagatsingh a:hover{
+    background-color: lightgreen;
+}
+
+
+
+.mahatmagandhi{
+    position: absolute;
+    right: 70%;
+    bottom: 27%;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.mahatmagandhi h3{
+    position: relative;
+    right: -14%;
+    bottom: 20.5px;
+    color: black;
+}
+
+.mahatmagandhi a{
+    text-decoration: none;
+    position: relative; 
+    right: -30%;
+    bottom: 35.5px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.mahatmagandhi a:hover{
+    background-color: lightgreen;
+}
+
+
+.kunwarsingh{
+    position: absolute;
+    right: 51%;
+    bottom: 27%;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.kunwarsingh h3{
+    position: relative;
+    right: -22%;
+    bottom: 20.5px;
+    color: black;
+}
+
+.kunwarsingh a{
+    text-decoration: none;
+    position: relative; 
+    right: -30%;
+    bottom: 33.5px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.kunwarsingh a:hover{
+    background-color: lightgreen;
+}
+
+
+
+
+
+.VinayakDamodarSavarkar{
+    position: absolute;
+    right: 31%;
+    bottom: 27%;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.VinayakDamodarSavarkar h3{
+    position: relative;
+    right: -1%;
+    bottom: 20.5px;
+    color: black;
+}
+
+.VinayakDamodarSavarkar a{
+    text-decoration: none;
+    position: relative; 
+    right: -30%;
+    bottom: 35.5px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.VinayakDamodarSavarkar a:hover{
+    background-color: lightgreen;
+}
+
+
+
+.dadabhainaoroji{
+    position: absolute;
+    right: 11%;
+    bottom: 27%;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.dadabhainaoroji h3{
+    position: relative;
+    right: -15%;
+    bottom: 20.5px;
+    color: black;
+}
+
+.dadabhainaoroji a{
+    text-decoration: none;
+    position: relative; 
+    right: -30%;
+    bottom: 35.5px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.dadabhainaoroji a:hover{
+    background-color: lightgreen;
+}
+
+
+
+@media (max-width: 850px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo Bhai 2', cursive;
+        background: rgb(255,165,0);
+        background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(255,255,255,1) 51%, rgba(0,255,38,1) 100%);
+        
+    }
+    
+    /* navigatiob bar styling */
+    .navbar{
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+    
+    
+    .navbar::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        top:0px;
+        left:0px;
+        height: 100%;
+        width:100%;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    
+    .navbar ul{
+        display: flex;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .navbar ul li{
+        list-style: none;
+    }
+    
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin: 0 3px 0 0;
+        position: relative;
+        left: 3px;
+        transition: 0.3s ease-in-out;
+        padding: 3px 5px;
+        border-radius: 10px;
+    }
+    
+    #logo{
+        position: relative;
+        left: 0.1%;
+        color: white;
+        height: 30px;
+    }
+    
+    .logoText{
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        font-size: 10px;
+    }
+    
+    
+    .navbar ul li a:hover{
+        background-color: white;
+        color: black;
+    
+    }
+    
+    .bhagatsingh{
+        position: absolute;
+        right: 21%;
+        bottom: -23%;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .bhagatsingh h3{
+        position: relative;
+        right: -25%;
+        bottom: 20.5px;
+        color: black;
+    }
+    
+    .bhagatsingh a{
+        text-decoration: none;
+        position: relative; 
+        right: -30%;
+        bottom: 35.5px;
+        font-size: small;
+        background-color: white;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .bhagatsingh a:hover{
+        background-color: lightgreen;
+    }
+    
+    
+    
+    .mahatmagandhi{
+        position: absolute;
+        right: 24%;
+        bottom: -68%;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .mahatmagandhi h3{
+        position: relative;
+        right: -14%;
+        bottom: 20.5px;
+        color: black;
+    }
+    
+    .mahatmagandhi a{
+        text-decoration: none;
+        position: relative; 
+        right: -30%;
+        bottom: 35.5px;
+        font-size: small;
+        background-color: white;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .mahatmagandhi a:hover{
+        background-color: lightgreen;
+    }
+    
+    
+    .kunwarsingh{
+        position: absolute;
+        right: 21%;
+        bottom: -121%;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .kunwarsingh h3{
+        position: relative;
+        right: -21%;
+        bottom: 20.5px;
+        color: black;
+    }
+    
+    .kunwarsingh a{
+        text-decoration: none;
+        position: relative; 
+        right: -30%;
+        bottom: 33.5px;
+        font-size: small;
+        background-color: white;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .kunwarsingh a:hover{
+        background-color: lightgreen;
+    }
+    
+    
+    
+    
+    
+    .VinayakDamodarSavarkar{
+        position: absolute;
+        right: 20%;
+        bottom: -170%;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .VinayakDamodarSavarkar h3{
+        position: relative;
+        right: -1%;
+        bottom: 20.5px;
+        color: black;
+    }
+    
+    .VinayakDamodarSavarkar a{
+        text-decoration: none;
+        position: relative; 
+        right: -30%;
+        bottom: 35.5px;
+        font-size: small;
+        background-color: white;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .VinayakDamodarSavarkar a:hover{
+        background-color: lightgreen;
+    }
+    
+    
+    
+    .dadabhainaoroji{
+        position: absolute;
+        right: 20%;
+        bottom: 27%;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    .dadabhainaoroji h3{
+        position: relative;
+        right: -15%;
+        bottom: 20.5px;
+        color: black;
+    }
+    
+    .dadabhainaoroji a{
+        text-decoration: none;
+        position: relative; 
+        right: -30%;
+        bottom: 35.5px;
+        font-size: small;
+        background-color: white;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .dadabhainaoroji a:hover{
+        background-color: lightgreen;
+    }
+    
+}
+
+
