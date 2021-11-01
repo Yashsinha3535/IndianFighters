@@ -307,7 +307,7 @@ body{
         position: relative;
         left: 0.1%;
         color: white;
-        height: 30px;
+        height: 50px;
     }
     
     .logoText{
@@ -329,7 +329,7 @@ body{
         bottom: -23%;
         color: white;
         font-family: 'Baloo Bhai 2', cursive;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     
@@ -366,7 +366,7 @@ body{
         bottom: -68%;
         color: white;
         font-family: 'Baloo Bhai 2', cursive;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     
@@ -402,7 +402,7 @@ body{
         bottom: -121%;
         color: white;
         font-family: 'Baloo Bhai 2', cursive;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     
@@ -411,7 +411,6 @@ body{
         right: -21%;
         bottom: 20.5px;
         color: black;
-        margin-bottom: 20px;
     }
     
     .kunwarsingh a{
@@ -442,7 +441,7 @@ body{
         bottom: -170%;
         color: white;
         font-family: 'Baloo Bhai 2', cursive;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     
@@ -479,6 +478,7 @@ body{
         bottom: 27%;
         color: white;
         font-family: 'Baloo Bhai 2', cursive;
+        margin-bottom: 30px;
     }
     
     
