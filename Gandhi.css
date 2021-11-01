@@ -155,5 +155,26 @@ body{
         color: black;
     
     }
+
+    .container{
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+    }
+    
+    
+    .container h3{
+        color: green
+    }
+    
+    .container p{
+        color: #14080E;
+        font-size: large;
+        font-weight: 500;
+    }
+    
+    
+    .container h1{
+        color: orange;
+    }
     
 }
